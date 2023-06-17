@@ -1,0 +1,62 @@
+:root {
+    --primary-bg-color: #011627;
+    --primary-accent-color: #F71735;
+    --primary-font-color: white;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    height: 5vh;
+    background-color: var(--primary-bg-color);
+}
+
+main {
+    height: 90vh;
+    background: var(--primary-accent-color);
+    cursor: pointer;
+}
+
+#verse {
+    font-size: 10rem;
+}
+
+footer {
+    height: 5vh;
+    align-items: flex-end !important;
+    background-color: var(--primary-bg-color);
+}
+
+header, footer {
+    padding: 1rem;   
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center
+}
+
+.font-color {
+    color: var(--primary-font-color);
+    font-weight: bold;
+}
+
+#count-down-timer-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 2rem;
+    width: 100%;
+    font-size: 3rem;
+    height: 10vh;
+}
+
+#verses-ref-container{
+    height: 80vh;
+}
